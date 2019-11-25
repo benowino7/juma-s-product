@@ -1,0 +1,112 @@
+/* html{
+    background-color: rgb(177, 110, 240);
+    
+} */
+nav img{
+    height: 150px;
+    widows: 150px;
+    /* animation: ben 6s 10s  infinite ease; */
+    border-radius: 100%;
+}
+@keyframes ben{from{transform: rotate(0deg)} to{transform: rotate(360deg)}}
+@keyframes flow{from{transform: translateX(10px)} to{transform: translateX(100px)}}
+@keyframes flow-back{from{transform: translateX(100px)} to{transform: translateX(10px)}}
+nav {
+    width: 100%;
+    /* justify-content: space-around; */
+    display: flex;
+    position: relative;
+    margin-top: 0%;
+    background-color: silver;
+    color: #08838b;
+}
+
+nav ul {
+    text-align: right;
+
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    /* margin-right: ; */
+    padding-left: 20px 0;
+    color: white;
+    top: 0%;
+    justify-content: space-between;
+}
+
+nav>ul>li>a {
+    padding: 18px;
+    margin-right: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    list-style: none;
+}
+
+nav>ul>li>a:hover {
+    box-shadow: 0 0 10px rgba(17, 17, 17, 0.1), inset 0 0 1px rgba(100, 93, 93, 0.6);
+    background: #08838b;
+    ;
+    color: rgba(12, 12, 9, 0.7);
+}
+.nav .animation{
+   
+   animation: flow 3s alternate ease-in-out infinite;
+}
+.nav .anim{animation: flow-back 3s alternate infinite ease-in-out;}
+.nav li{
+    list-style: none;
+}
+i:hover {
+    box-shadow: 0 0 10px rgba(17, 17, 17, 0.1), inset 0 0 1px rgba(100, 93, 93, 0.6);
+    background: #08838b;
+    color: rgba(12, 12, 9, 0.7);
+}
+i {
+    padding: 10px;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space space-around;
+    color: #08838b;
+}
+.card-body img{
+    height: 300px;
+    width: 300px;
+    border-radius: 30%;
+    overflow: hidden;
+    margin: 2%;
+    box-shadow: 7px 7px 12px #08838b;
+    
+}
+.card-body img {
+}
+/* .card-body{
+    box-shadow: 7px 7px 12px #08838b;
+} */
+.testimony img{
+width: 500px;
+height: 500px;
+
+}
+ 
+footer  p{
+    background-color: silver;
+    text-align: center;
+}
+footer{
+    position: sticky;
+    bottom: -10%;
+}
+h2{
+    color:#08838b;
+    font-family: 'Abril Fatface', cursive;
+}
+p{ font-family: 'Shadows Into Light', cursive;
+font-size: 22px;
+}
+.card-footer{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 22px;
+}
