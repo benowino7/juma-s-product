@@ -5,7 +5,7 @@
 nav img{
     height: 150px;
     widows: 150px;
-    /* animation: ben 6s 10s  infinite ease; */
+    /* animation: ben 6s 10s  infinite ease;  */
     border-radius: 100%;
 }
 @keyframes ben{from{transform: rotate(0deg)} to{transform: rotate(360deg)}}
@@ -78,7 +78,7 @@ i {
     overflow: hidden;
     margin: 2%;
     box-shadow: 7px 7px 12px #08838b;
-    
+    animation: ben 5s 4s ease-in;
 }
 .card-body img {
 }
