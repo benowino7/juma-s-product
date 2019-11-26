@@ -1,16 +1,16 @@
-#Juma's products
+# Juma's products
 ```this is a caterig web site.
  This website is a marketing site
   where one sells his/her product
   ```
-##Container
+## Container
 
  ```this section contains:the titile, the header, 
 the body which contains gallery, services 
  and testimony all in a card section,
  and the footer which contains the contact info
  ```
-##technlogy used
+## technlogy used
 ``` this includes:
 html language
 css language 
