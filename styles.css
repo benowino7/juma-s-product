@@ -78,7 +78,7 @@ i {
     overflow: hidden;
     margin: 2%;
     box-shadow: 7px 7px 12px #08838b;
-    animation: ben 5s 4s ease-in;
+    animation: ben 5s 4s 2 ease-in;
 }
 
 /* .card-body{
